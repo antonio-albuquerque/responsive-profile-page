@@ -52,7 +52,36 @@
       box-shadow: 0px 0px 0px 1.5px rgba(0, 0, 0, 0.062);
       justify-content: space-between;
   }
+
+  #main-box{
+    margin-top: 115px;
+  }
+
+  .head-itens-group{
+      display: flex;
+      align-items: center;
+      font-family: Roboto;
+      font-size: 15px;
+  }
+
+  .head-itens-group svg{
+      margin: 20px;
+  }
   
+  .head-itens-group span {
+    color: #0385db; 
+  }
+
+  .container-box{
+    margin: 20px;
+    background: white;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 0px 0.7px rgba(0,0,0,0.062);
+    -moz-box-shadow: 0px 0px 0px 0.7px rgba(0, 0, 0, 0.062);
+    box-shadow: 0px 0px 0px 1.5px rgba(0, 0, 0, 0.062);
+  }
+
+
   #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
